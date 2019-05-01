@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "inventorypause",
+  "version": "${version}",
+  "name": "Inventory Pause",
+  "description": "Pause your single player game when Inventory is open",
+  "authors": [
+    "umollu"
+  ],
+  "contact": {
+    "homepage": "https://umollu.com/",
+    "sources": "https://github.com/umollu/inventory-pause"
+  },
+
+  "license": "MIT",
+  "icon": "assets/inventorypause/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.umollu.inventorypause.InventoryPauseMod"
+    ]
+  },
+  "mixins": [
+    "inventorypause.mixins.json"
+  ],
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
