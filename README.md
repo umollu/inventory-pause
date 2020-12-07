@@ -1,4 +1,4 @@
-# Inventory Pause (Minecraft 1.14 Mod)
+# Inventory Pause (Minecraft Fabric Mod)
 
 Pause your single player game when Inventory is open.
 
