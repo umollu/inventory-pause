@@ -9,12 +9,11 @@
   ],
   "contact": {
     "homepage": "https://umollu.com/",
-    "sources": "https://github.com/umollu/inventory-pause"
+    "sources": "https://github.com/umollu/inventory-pause",
+    "issues": "https://github.com/umollu/inventory-pause/issues"
   },
-
   "license": "MIT",
   "icon": "assets/inventorypause/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -24,7 +23,6 @@
   "mixins": [
     "inventorypause.mixins.json"
   ],
-
   "depends": {
     "fabric": "*"
   }
