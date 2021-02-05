@@ -14,5 +14,5 @@ public class ModConfig implements ConfigData {
     public boolean pauseShulkerBox = false;
     public List<String> customScreens = new ArrayList<>();
 
-    public boolean debug = true;
+    public boolean debug = false;
 }
