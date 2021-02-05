@@ -1,7 +1,8 @@
 {
-  "text.autoconfig.inventory-pause.option.title": "Inventory Pause Config",
-  "text.autoconfig.inventory-pause.option.pauseInventory": "Pause on Inventory",
-  "text.autoconfig.inventory-pause.option.pauseFurnace": "Pause on Furnace",
-  "text.autoconfig.inventory-pause.option.pauseCraftingTable": "Pause on Crafting Table",
-  "text.autoconfig.inventory-pause.option.pauseShulkerBox": "Pause on Shulker Box"
+  "text.autoconfig.inventorypause.option.title": "Inventory Pause Config",
+  "text.autoconfig.inventorypause.option.pauseInventory": "Pause on Inventory",
+  "text.autoconfig.inventorypause.option.pauseFurnace": "Pause on Furnace",
+  "text.autoconfig.inventorypause.option.pauseCraftingTable": "Pause on Crafting Table",
+  "text.autoconfig.inventorypause.option.pauseShulkerBox": "Pause on Shulker Box",
+  "text.autoconfig.inventorypause.option.customScreens": "Custom mod class names"
 }
