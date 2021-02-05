@@ -14,6 +14,16 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// Mod Menu, to add the hook for a config screen
+	modImplementation "io.github.prospector:modmenu:${project.modmenu_version}"
+
+	modApi("me.shedaniel.cloth:config-2:${project.cloth_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+	modApi("me.sargunvohra.mcmods:autoconfig1u:${project.auto_config_version}") {
+		exclude group: "net.fabricmc.fabric-api", module: "fabric-api"
+	}
 }
 
 processResources {
