@@ -18,6 +18,9 @@
   "entrypoints": {
     "main": [
       "com.umollu.inventorypause.InventoryPauseMod"
+    ],
+    "modmenu": [
+      "com.umollu.inventorypause.utils.ModMenuIntegration"
     ]
   },
   "mixins": [
