@@ -8,11 +8,11 @@ import java.util.List;
 
 @Config(name = "inventorypause")
 public class ModConfig implements ConfigData {
-    public boolean pauseInventory = true;
-    public boolean pauseFurnace = false;
-    public boolean pauseCraftingTable = false;
-    public boolean pauseShulkerBox = false;
-    public List<String> customScreens = new ArrayList<>();
+    boolean pauseInventory = true;
+    boolean pauseFurnace = false;
+    boolean pauseCraftingTable = false;
+    boolean pauseShulkerBox = false;
+    List<String> customScreens = new ArrayList<>();
 
     public boolean debug = false;
 }
