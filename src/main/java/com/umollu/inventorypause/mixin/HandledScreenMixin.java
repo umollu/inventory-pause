@@ -2,7 +2,7 @@ package com.umollu.inventorypause.mixin;
 
 import com.umollu.inventorypause.utils.ModConfig;
 import com.umollu.inventorypause.utils.ScreenHelper;
-import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
+import me.shedaniel.autoconfig.AutoConfig;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
